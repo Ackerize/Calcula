@@ -24,7 +24,7 @@ public class FactoryAritmetica  implements AbstractFactory{
         switch(dato){
             case "multiplicar":
                 return new Multiplicar();
-            case "dividr":
+            case "dividir":
                 return new Dividir();
             case "sumar":
                 return new Sumar();

@@ -11,7 +11,8 @@ package Main.Artimetica;
  */
 public class Sumar implements Aritmetica{
     @Override
-    public  void  operar(){
+    public  float  operar(float a, float b){
         
+        return a + b;
     }
 }

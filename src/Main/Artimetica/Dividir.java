@@ -11,7 +11,15 @@ package Main.Artimetica;
  */
 public class Dividir implements Aritmetica{
     @Override
-    public  void  operar(){
-        
+    public  float operar(float a, float b){
+        if(b == 0){
+            System.out.println("No se puede operar");
+            return 0;
+        }
+        else if(a == b){
+            System.out.println("Nel, no se puede");
+            return 0;
+        }
+        return a / b;
     }
 }

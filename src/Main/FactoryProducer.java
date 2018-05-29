@@ -17,7 +17,7 @@ public class FactoryProducer {
         switch(type){
             case "aritmetica":
                 return new FactoryAritmetica();
-            case "convertor":
+            case "convertir":
                 return new FactoryConvertor();
                 
         }

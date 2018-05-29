@@ -11,7 +11,7 @@ package Main.Artimetica;
  */
 public class Restar implements Aritmetica{
     @Override
-    public  void  operar(){
-        
+    public  float  operar(float a, float b){
+        return a - b;
     }
 }

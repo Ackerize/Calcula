@@ -10,5 +10,5 @@ package Main.Artimetica;
  * @author LN710Q
  */
 public interface Aritmetica {
-    void operar();
+    float operar(float a, float b);
 }
